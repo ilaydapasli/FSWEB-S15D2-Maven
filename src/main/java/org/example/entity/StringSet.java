@@ -16,6 +16,6 @@ public class StringSet {
 
         TreeSet <String> uniqueWords = new TreeSet<>(Arrays.asList(words));
 
-        return Set.of();
+        return uniqueWords;
     }
 }
